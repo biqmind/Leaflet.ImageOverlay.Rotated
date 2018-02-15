@@ -1,6 +1,6 @@
 format_version: 2
 pipelines:
-  rockmsvc:
+  leafletImageOverlay:
     group: PyFarm
     label_template: ${COUNT}
     lock_behavior: none
@@ -9,7 +9,7 @@ pipelines:
       project_identifier: pyfarm
       mql_grouping_conditions: "status > 'In Dev'"
     materials:
-      rockmsvc:
+      leafletImageOverlay:
         git: git@github.com:biqmind/Leaflet.ImageOverlay.Rotated.git
     stages:
       - NPMPublishJob:
