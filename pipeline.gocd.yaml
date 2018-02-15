@@ -11,6 +11,7 @@ pipelines:
     materials:
       leafletImageOverlay:
         git: git@github.com:biqmind/Leaflet.ImageOverlay.Rotated.git
+        branch: gh-pages
     stages:
       - NPMPublishJob:
           fetch_materials: true
