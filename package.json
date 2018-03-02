@@ -1,6 +1,6 @@
 {
   "name": "@pyfarm/leaflet-imageoverlay-rotated",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "Displays rotated/slanted image overlays in Leaflet",
   "main": "Leaflet.ImageOverlay.Rotated.js",
   "dependencies": {
